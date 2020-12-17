@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <style>
+    #Email,
+    #password {
+      border: 1px solid blue;
+      padding: 10px;
+      padding-left: 20px;
+      display: inline-block;
+
+    }
+    .body{
+      background-color: black;
+      border: 1px solid black;
+      border-left: 1px solid black;
+      padding: 30px;
+      padding-left: 20px;
+      border-radius: 10px;
+      width: 300px;
+      box-sizing: border-box;
+    }
+    #h2{
+      width: 200px;
+      
+    }
+    
+  </style>
+</head>
+
+<body class="body">
+  
+
+    <h2 class="unix" id="h2">Please login</h2>
+    <form action="flasktut.py">
+      <div>
+        <label for="Email"></label>
+        <input type="text" name="Email" class="unix" id="Email" placeholder="Email address">
+      </div>
+      <br>
+      <div>
+        <label for="password"></label>
+        <input type="text" name="password" class="unix" id="password" placeholder="Password">
+      </div>
+      <br>
+      <div>
+        <button type="submit" class="unix">Log In</button>
+      </div>
+      <br>
+      <div>
+        <a href="https://google.com" class="unix">Forgotten password?</a>
+      </div>
+      <br>
+      <div>
+        <button type="submit" class="unix">Create New Account</button>
+      </div>
+  
+  
+    </form>
+  
+</body>
+
+</html>
